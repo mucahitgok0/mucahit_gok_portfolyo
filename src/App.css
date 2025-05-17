@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+#projects {
+  scroll-margin-top: 100px; /* navbar yüksekliğine göre ayarla */
+}
+
+/* App-header'ı yükseklik ayarıyla esnek yaparak içeriğin altına taşımaya yardımcı olur */
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh; /* İçeriği tam ekran yapar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,26 +29,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
