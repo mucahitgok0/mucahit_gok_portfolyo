@@ -223,6 +223,10 @@
         height: 200px;
     }
 
+    .home-container{
+        padding: 2rem;
+    }
+
     .home-content h1 {
         font-size: 2rem;
     }
