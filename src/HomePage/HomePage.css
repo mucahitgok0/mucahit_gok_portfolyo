@@ -223,8 +223,9 @@
         height: 200px;
     }
 
-    .justified-text fade-slide{
-        font-size: 2rem;
+    .home-content{
+        padding: 60px 20px;
+        text-align: center;
     }
 
     .home-container{
@@ -237,6 +238,7 @@
 
     .home-content p {
         font-size: 1rem;
+        padding: 0;
     }
 
     .btn,
