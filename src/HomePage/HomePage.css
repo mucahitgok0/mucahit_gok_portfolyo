@@ -223,6 +223,12 @@
         height: 200px;
     }
 
+    .home-content h1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+    }
+
     .home-container{
         padding: 3rem;
     }
