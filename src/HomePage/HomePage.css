@@ -1,11 +1,14 @@
-/* Home.css - Anasayfa Stili (Flip Kart Animasyonlu) */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .home-section {
@@ -29,6 +32,10 @@
     max-width: 1100px;
     margin: 0 auto;
     text-align: left;
+}
+
+.home-content {
+    flex: 1 1 400px;
 }
 
 .home-content h1 {
@@ -119,12 +126,11 @@
     color: white;
 }
 
-/* ANİMASYONLU KART */
 .home-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 1 1 300px;
     animation: cardFlip 1s ease-in-out forwards;
     animation-delay: 0.6s;
     transform-style: preserve-3d;
@@ -139,6 +145,8 @@
     border-radius: 50%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     border: 4px solid #f36a21;
+    max-width: 100%;
+    height: auto;
 }
 
 .social-icons {
@@ -157,7 +165,6 @@
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* GitHub ikonu */
 .social-icons a[href*="github"] img {
     filter: grayscale(100%) brightness(0.7);
 }
@@ -167,7 +174,6 @@
     filter: grayscale(0%) brightness(1);
 }
 
-/* LinkedIn ikonu */
 .social-icons a[href*="linkedin"] img {
     filter: none;
     background-color: #0A66C2;
@@ -181,7 +187,6 @@
     filter: none;
 }
 
-/* Facebook ikonu */
 .social-icons a[href*="facebook"] img {
     background-color: #ededed;
     border-radius: 6px;
@@ -193,7 +198,6 @@
     background-color: #ffffff;
 }
 
-/* Animasyonlar */
 @keyframes slideUpFade {
     0% {
         opacity: 0;
@@ -216,20 +220,17 @@
     }
 }
 
-/* Mobil */
+/* 🌐 Mobil Duyarlılık */
 @media (max-width: 768px) {
-    .home-photo img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .home-content{
-        padding: 60px 20px;
+    .home-container {
+        flex-direction: column;
+        align-items: center;
         text-align: center;
+        padding: 0 1.2rem;
     }
 
-    .home-container{
-        padding: 3rem;
+    .home-content {
+        width: 100%;
     }
 
     .home-content h1 {
@@ -238,13 +239,47 @@
 
     .home-content p {
         font-size: 1rem;
-        padding: 0;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .typing-text {
+        font-size: 1rem;
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .home-photo {
+        margin-top: 2rem;
+    }
+
+    .home-photo img {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
     }
 
     .btn,
     .btn-outline {
         width: 100%;
+        font-size: 1rem;
         text-align: center;
     }
-}
 
+    .social-icons {
+        justify-content: center;
+    }
+
+    .home-wave svg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
