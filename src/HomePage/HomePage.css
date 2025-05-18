@@ -283,6 +283,12 @@
         justify-content: center;
     }
 
+    .home-wave {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
     .home-wave svg {
         width: 100%;
         height: auto;
