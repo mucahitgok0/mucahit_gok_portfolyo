@@ -8,15 +8,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.home-content h1 {
-    font-size: clamp(1.5rem, 5vw, 2.8rem);
-}
-
 .home-section {
     background: linear-gradient(135deg, #fff8f3, #f9f9f9);
     padding: 100px 20px;
