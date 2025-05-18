@@ -218,22 +218,38 @@
 
 /* Mobil */
 @media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-content {
+        width: 100%;
+    }
+
+    .home-photo {
+        margin-top: 2rem;
+    }
+
     .home-photo img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
-    .home-content h1 {
-        font-size: 2rem;
-    }
-
-    .home-content p {
-        font-size: 1rem;
+    .home-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
     }
 
     .btn,
     .btn-outline {
         width: 100%;
         text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
     }
 }

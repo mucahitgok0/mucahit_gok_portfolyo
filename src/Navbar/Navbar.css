@@ -76,12 +76,52 @@
     transition: width 0.3s ease;
 }
 
-/* Ekran 768px'den küçükse mobil uyumlu tasarım */
+/* ...Önceki kodlar... */
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Mobil görünüm */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none; /* Menü bağlantılarını gizler (daha sonra hamburger menüyle gösterilebilir) */
-    }
     .navbar-container {
-        justify-content: center; /* Sadece logo ortalanır */
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1E88E5;
+        border-radius: 0 0 20px 20px;
+        padding: 1rem 0;
+    }
+
+    .nav-links a {
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
     }
 }
