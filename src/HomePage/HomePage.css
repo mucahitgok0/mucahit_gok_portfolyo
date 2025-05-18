@@ -223,9 +223,8 @@
         height: 200px;
     }
 
-    .home-content h1 {
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .justified-text fade-slide{
+        font-size: 2rem;
     }
 
     .home-container{
