@@ -37,7 +37,7 @@ const About = () => {
                                 Flutter / Dart
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '80%' }}></div>
+                                <div className="skill-fill" style={{ width: '80%' }}></div>
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ const About = () => {
                                 HTML / CSS
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '65%' }}></div>
+                                <div className="skill-fill" style={{ width: '65%' }}></div>
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ const About = () => {
                                 JavaScript
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '60%' }}></div>
+                                <div className="skill-fill" style={{ width: '60%' }}></div>
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@ const About = () => {
                                 React.js
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '60%' }}></div>
+                                <div className="skill-fill" style={{ width: '60%' }}></div>
                             </div>
                         </div>
 
@@ -77,7 +77,7 @@ const About = () => {
                                 Figma
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '70%' }}></div>
+                                <div className="skill-fill" style={{ width: '70%' }}></div>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const About = () => {
                                 Python
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '70%' }}></div>
+                                <div className="skill-fill" style={{ width: '70%' }}></div>
                             </div>
                         </div>
 
@@ -101,7 +101,7 @@ const About = () => {
                                 C#
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '65%' }}></div>
+                                <div className="skill-fill" style={{ width: '65%' }}></div>
                             </div>
                         </div>
 
@@ -111,7 +111,7 @@ const About = () => {
                                 Java
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '60%' }}></div>
+                                <div className="skill-fill" style={{ width: '60%' }}></div>
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@ const About = () => {
                                 Arduino
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '70%' }}></div>
+                                <div className="skill-fill" style={{ width: '70%' }}></div>
                             </div>
                         </div>
 
@@ -131,7 +131,7 @@ const About = () => {
                                 Firebase
                             </div>
                             <div className="skill-progress">
-                                <div className="skill-fill" style={{ '--fill-width': '75%' }}></div>
+                                <div className="skill-fill" style={{ width: '75%' }}></div>
                             </div>
                         </div>
 
