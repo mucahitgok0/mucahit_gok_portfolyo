@@ -224,9 +224,8 @@
     }
 
     .home-content h1 {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .home-container{
