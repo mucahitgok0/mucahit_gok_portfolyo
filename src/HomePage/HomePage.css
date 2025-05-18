@@ -218,67 +218,23 @@
 
 /* Mobil */
 @media (max-width: 768px) {
-    .home-container {
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        padding: 0 15px;
+    .home-photo img {
+        width: 200px;
+        height: 200px;
     }
 
     .home-content h1 {
-        font-size: 1.8rem;
-        line-height: 2.2rem;
-    }
-
-    .typing-text {
-        font-size: 1rem;
-        max-width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
+        font-size: 2rem;
     }
 
     .home-content p {
-        font-size: 0.95rem;
-        line-height: 1.6;
-        letter-spacing: 0.2px;
-        margin-bottom: 1.5rem;
-    }
-
-    .home-photo {
-        margin-top: 1.5rem;
-        max-width: 90%;
-    }
-
-    .home-photo img {
-        width: 180px !important;
-        height: 180px !important;
-        object-fit: cover;
-    }
-
-    .home-buttons {
-        flex-direction: column;
-        width: 100%;
-        gap: 0.8rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .btn, .btn-outline {
-        width: 100%;
         font-size: 1rem;
     }
 
-    .social-icons {
-        justify-content: center;
-        margin-top: 1.5rem;
-    }
-
-    .home-wave svg {
-        display: block;
+    .btn,
+    .btn-outline {
         width: 100%;
-        height: auto;
-    }
-
-    body {
-        overflow-x: hidden;
+        text-align: center;
     }
 }
+
