@@ -18,9 +18,9 @@ const Navbar = () => {
 
                 <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
                     <li><a href="#home" onClick={() => setMenuOpen(false)}>Anasayfa</a></li>
-                    <li><a href="#about" onClick={() => setMenuOpen(false)}>Ben Kimim</a></li>
-                    <li><a href="#services" onClick={() => setMenuOpen(false)}>Hizmetler</a></li>
-                    <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projeler</a></li>
+                    <li><a href="#about" onClick={() => setMenuOpen(false)}>Ben Kimim?</a></li>
+                    <li><a href="#services" onClick={() => setMenuOpen(false)}>Neler yapabilirim?</a></li>
+                    <li><a href="#projects" onClick={() => setMenuOpen(false)}>Portfolyo</a></li>
                     <li><a href="#contact" onClick={() => setMenuOpen(false)}>İletişim</a></li>
                 </ul>
             </div>
