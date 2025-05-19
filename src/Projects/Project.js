@@ -54,7 +54,7 @@ const Projects = () => {
                         language={project.language}
                         repoLink={project.repoLink}
                         year={project.year}
-                        endDate={project.endDate}  // ← BUNU EKLE
+                        endDate={project.endDate}
                     />
                 ))}
             </div>

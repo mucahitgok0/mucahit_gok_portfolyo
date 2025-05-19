@@ -1,4 +1,3 @@
-// ProjectCard.js (güncellenmiş - GitHub logosu eklendi)
 import React from 'react';
 import './ProjectCard.css';
 

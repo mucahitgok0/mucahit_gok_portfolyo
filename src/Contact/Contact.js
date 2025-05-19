@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Swal from 'sweetalert2'; // ← EKLENDİ
+import Swal from 'sweetalert2';
 import './Contact.css';
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // ✅ Modern alert burada:
+
         Swal.fire({
             title: 'Teşekkürler!',
             text: 'Mesajınız başarıyla gönderildi.',
