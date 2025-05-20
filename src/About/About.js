@@ -13,6 +13,7 @@ const About = () => {
                 Ayrıca TEKNOFEST Roket Yarışması’nda uçuş kontrol yazılımları geliştirerek sensör verileri ve kablosuz iletişim alanlarında tecrübe kazandım. Temiz kod, sürdürülebilir yapı ve kullanıcı deneyimi, geliştirme sürecindeki temel önceliklerimdir.
             </p>
 
+            {/*
             <div className="about-buttons">
                 <a
                     href="/cv/Mucahit_Gok_CV.pdf"
@@ -23,6 +24,7 @@ const About = () => {
                     CV'yi Görüntüle
                 </a>
             </div>
+            */}
 
             <section className="skills-section">
                 <h2 className="section-title">Teknik Yetenekler</h2>
